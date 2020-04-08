@@ -1,7 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("test");
+        
         char myChar = '@';
         byte myByte = 127;
         short myShort = 1231;
