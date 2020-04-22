@@ -3,26 +3,41 @@ package AnimalRescue;
 public class Dog {
 
 
-    public String name = "Rex";
-    public int age = 4;
-    public String  color = "Brown and white";
-    public String race = "Ciobanesc";
-    public int chipNr = 123123;
-    public float weight = 23.5F;
+    private String name;
+    private int age;
+    private String color;
+    private String race;
+    private int chipNr;
+    private float weight;
 
 
-    public void eat(){
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void eat() {
         System.out.println("Eating..");
     }
 
-    public void run(){
+    public void run() {
         System.out.println("running..");
     }
 
-    public void sleep(){
+    public void sleep() {
         System.out.println("ZzzZZzz..");
     }
-
 
 
 }
