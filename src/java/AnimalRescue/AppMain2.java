@@ -20,5 +20,9 @@ public class AppMain2 {
         Dog xxx = new Dog();
         Dog aaza = new Dog();
         Dog aafasa = new Dog();
+
+        Cat mitzi = new Cat();
+        mitzi.setName("Mitzi");
+
     }
 }
