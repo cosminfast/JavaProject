@@ -39,6 +39,7 @@ public class Animal {
         this.race = race;
     }
 
+
     public void eat() {
         System.out.println("Eating..");
     }
@@ -49,6 +50,10 @@ public class Animal {
 
     public void sleep() {
         System.out.println("ZzzZZzz..");
+    }
+
+    public void speak(){
+        System.out.println("sunete");
     }
 
 }

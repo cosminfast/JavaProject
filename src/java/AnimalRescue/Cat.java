@@ -26,16 +26,10 @@ public class Cat extends Animal{
 
 
 
-
-    public void eat() {
-        System.out.println("Eating..");
+    public void speak(){
+        System.out.println("Meow!");
     }
 
-    public void run() {
-        System.out.println("running..");
-    }
 
-    public void sleep() {
-        System.out.println("ZzzZZzz..");
-    }
+
 }

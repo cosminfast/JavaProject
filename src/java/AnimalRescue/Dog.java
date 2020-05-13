@@ -2,6 +2,15 @@ package AnimalRescue;
 
 public class Dog extends Animal{
 
+    Dog(String name,int age){
+        setName(name);
+        setAge(age);
+    }
+
+    Dog(){
+
+    }
+
 
     private int chipNr;
     private float weight;

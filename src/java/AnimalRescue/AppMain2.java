@@ -12,7 +12,7 @@ public class AppMain2 {
         System.out.println(rex.getName());
         System.out.println(rex.getAge());
 
-        Dog freddie = new Dog();
+        Dog freddie = new Dog("Freddie",15);
 
 
 
@@ -23,6 +23,7 @@ public class AppMain2 {
 
         Cat mitzi = new Cat();
         mitzi.setName("Mitzi");
+        mitzi.speak();
 
     }
 }
