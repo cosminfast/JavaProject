@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Lab5 {
 
 
@@ -17,13 +19,19 @@ public class Lab5 {
 
 //        System.out.println(op.getAverageFromArray(myArray));
 
-        int[] x = new int[3];
+//        int[] x = new int[3];
+//
+//        System.out.println(x[2] );
+//
+//        String[] aa = new String[3];
+//        aa[2] = "-";
+//        System.out.println(aa[2]);
+//
 
-        System.out.println(x[2] );
+        int[] myArr = op.getArrayHundred();
 
-        String[] aa = new String[3];
-        aa[2] = "-";
-        System.out.println(aa[2]);
+        System.out.println(Arrays.toString(myArr));
+        op.printArray(myArr);
 
     }
 }

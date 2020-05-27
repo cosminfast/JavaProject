@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Dog extends Animal{
+public abstract class Dog extends Animal{
 
     Dog(String name,int age){
         setName(name);
@@ -34,8 +34,21 @@ public class Dog extends Animal{
     }
 
 
+    @Override
+    public void eat() {
+        System.out.println("eating pedigree");
+    }
 
 
 
+    @Override
+    public void sleep() {
+        System.out.println("sleeps and snores");
+    }
 
+    @Override
+    public void speak() {
+        System.out.println("woof!");
+
+    }
 }

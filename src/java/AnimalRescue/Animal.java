@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private int age;
@@ -40,20 +40,11 @@ public class Animal {
     }
 
 
-    public void eat() {
-        System.out.println("Eating..");
-    }
+    public abstract void eat() ;
 
-    public void run() {
-        System.out.println("running..");
-    }
+    public abstract void run();
 
-    public void sleep() {
-        System.out.println("ZzzZZzz..");
-    }
+    public abstract void sleep() ;
 
-    public void speak(){
-        System.out.println("sunete");
-    }
-
+    public abstract void speak();
 }

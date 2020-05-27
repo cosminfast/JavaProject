@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class LogicalOperations {
 
 
@@ -70,6 +72,20 @@ public class LogicalOperations {
         }
 
         return sum / array.length;
+    }
+
+
+    public void addToList(List<Integer> myList, int x){
+        myList.add(x);
+    }
+
+    public void printList(List<Integer> list){
+//        for (int i = 0; i < list.size(); i++){
+//            System.out.println(list.get(i));
+//        }
+        for (int x : list){
+            System.out.println(x);
+        }
     }
 
 }
