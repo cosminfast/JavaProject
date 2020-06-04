@@ -25,6 +25,20 @@ public class Cat extends Animal{
     private float weight;
 
 
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void run() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
 
     public void speak(){
         System.out.println("Meow!");
