@@ -1,5 +1,6 @@
 package com.company;
 
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -8,10 +9,7 @@ import java.util.Scanner;
 
 public class Lab7 {
 
-    public static void main(String[] args) {
-
-
-
+    public static void main(String[] args)  {
 
 
         List<Integer> myList = new ArrayList<Integer>();
